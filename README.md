@@ -71,6 +71,15 @@
 
 * _My three biggest inspirations out of these similar companies are the Bond Collective, CO+HOOTS, and Workbar, for their minimalistic content, aesthetic style, and user experience, respectively._
 
+* _I want to incorporate Bond Collective's stylistic choices into my product. They let their product speak for itself -- not a wall of text, but simple pictures and icons for the most part, a sleek, modern site with a lot of breathing room, which gives off the right vibes for the comfortable, casual environment of Clear Space._
+
+* _A complaint I have with most *all* of these sites is the fact that they try to shove everything into the landing page, forcing the user to scroll excessively to find the information they want. In my design, I want to keep the page feeling light and concise. A small header, a picture showcasing the area with minimal text, and tabs to the contact, amenities, location, and subscription pages. No need to scroll, even on the smallest screens, and the layout to the whole site is presented to the user, without being overly busy._
+
+## Sketches
+
+* _Landing Page_
+![Landing Page](img/landing.png)
+
 ## Technologies Used
 
 * _Sketch, v50.2_
