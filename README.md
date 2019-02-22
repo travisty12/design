@@ -1,14 +1,14 @@
-# Design Project
+# Clear Spot - Design Project
 
-#### Mock website design based on example client desires
+###### Mock website design based on example client desires
 
-## By **Travis Toal**
+#### By **Travis Toal**
 
-## Description
+### Description
 
 * _This project is an exercise in the design process, from defining the target users, to creating wireframes, to navigable prototypes, and finally to a coded, live site._
 
-## Target Users
+### Target Users
 
 * _Potential coworkers can get a feeling of openness - both physical and mental - from the site, and can get information about how to join the workspace. Minimal text-blocks and stuff in your face. It feels high-end, but not exclusive._
 
@@ -18,7 +18,7 @@
 
 * _Social clients can see the many modern amenities and luxuries the company has, and the group activities they would have access to if they join the space._
 
-## User Personas / Stories
+### User Personas / Stories
 
 #### Derek
 ##### "As a modern professional, I want to feel like I'm in the forefront of the field."
@@ -64,17 +64,24 @@
 ###### How we can serve
 * _Cater the site to a wide crowd, not to any one occupation._
 
+### Research
+* _Similar sites include WeWork, Techspace, Regus, Proximity, CO+HOOTS, Workbar, Nextspace, Bond Collective, and NGIN Workplace._
+
+* _Regus and Nextspace are examples of the things I *don't* want in my project -- busy, word-heavy, claustrophobic sites that drive me away._
+
+* _My three biggest inspirations of these similar companies are the Bond Collective, CO+HOOTS, and Workbar, for their minimalistic content, aesthetic style, and user experience, respectively._
+
 ## Technologies Used
 
 * _Sketch, v50.2_
 
-## Setup / Installation Requirements
+### Setup / Installation Requirements
 
-## Known Bugs
+### Known Bugs
 
-## Support and Contact Details
+### Support and Contact Details
 
-### License
+#### License
 * _This software is licensed under the MIT license_
 
 Copyright (c) 2019 **Travis Toal**
