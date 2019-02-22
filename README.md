@@ -77,8 +77,18 @@
 
 ## Sketches
 
+#### Mobile Sketches
+
 * _Landing Page_
 ![Landing Page](img/landing.png)
+* _Contact Page_
+![Contact Us](img/contact.png)
+* _Amenities Page_
+![Amenities](img/amenities.png)
+* _Location Page_
+![Location](img/location.png)
+* _Join Page_
+![Join Us](img/join.png)
 
 ## Technologies Used
 
