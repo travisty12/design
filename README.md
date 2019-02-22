@@ -55,6 +55,7 @@
 #### Carol
 ##### "As a businessperson, I don't want to feel alienated from the tech crowd."
 ###### Needs
+* _A local workplace_
 * _A feeling of representation_
 
 ###### Pain Points
@@ -62,3 +63,18 @@
 
 ###### How we can serve
 * _Cater the site to a wide crowd, not to any one occupation._
+
+## Technologies Used
+
+* _Sketch, v50.2_
+
+## Setup / Installation Requirements
+
+## Known Bugs
+
+## Support and Contact Details
+
+### License
+* _This software is licensed under the MIT license_
+
+Copyright (c) 2019 **Travis Toal**
