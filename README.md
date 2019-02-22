@@ -67,9 +67,9 @@
 ### Research
 * _Similar sites include WeWork, Techspace, Regus, Proximity, CO+HOOTS, Workbar, Nextspace, Bond Collective, and NGIN Workplace._
 
-* _Regus and Nextspace are examples of the things I *don't* want in my project -- busy, word-heavy, claustrophobic sites that drive me away._
+* _Techspace, Regus and Nextspace are examples of the things I *don't* want in my project -- busy, word-heavy, claustrophobic sites that drive me away._
 
-* _My three biggest inspirations of these similar companies are the Bond Collective, CO+HOOTS, and Workbar, for their minimalistic content, aesthetic style, and user experience, respectively._
+* _My three biggest inspirations out of these similar companies are the Bond Collective, CO+HOOTS, and Workbar, for their minimalistic content, aesthetic style, and user experience, respectively._
 
 ## Technologies Used
 
