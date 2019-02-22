@@ -1,6 +1,12 @@
-# Redesign Project
+# Design Project
+
+#### Mock website design based on example client desires
 
 ## By **Travis Toal**
+
+## Description
+
+* _This project is an exercise in the design process, from defining the target users, to creating wireframes, to navigable prototypes, and finally to a coded, live site._
 
 ## Target Users
 
