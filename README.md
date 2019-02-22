@@ -77,17 +77,31 @@
 
 ## Sketches
 
-#### Mobile Sketches
+#### Landing Page Views
 
-* _Landing Page_
+* _Mobile_
+
 ![Landing Page](img/landing.png)
+* _Tablet_
+
+![Landing Page](img/main-tablet.png)
+* _Desktop_
+
+![Landing Page](img/main-desktop.png)
+
+#### Other Pages
+
 * _Contact Page_
+
 ![Contact Us](img/contact.png)
 * _Amenities Page_
+
 ![Amenities](img/amenities.png)
 * _Location Page_
+
 ![Location](img/location.png)
 * _Join Page_
+
 ![Join Us](img/join.png)
 
 ## Technologies Used
