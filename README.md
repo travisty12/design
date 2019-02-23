@@ -27,7 +27,7 @@
 * _A company with high-tech amenities_
 
 ###### Pain Points
-* _Companies that require clients to provide all amenities_
+* _Companies that do not provide amenities to clients_
 * _Clunky, busy sites_
 
 ###### How we can serve
@@ -64,7 +64,7 @@
 ###### How we can serve
 * _Cater the site to a wide crowd, not to any one occupation._
 
-### Research
+### Process
 * _Similar sites include WeWork, Techspace, Regus, Proximity, CO+HOOTS, Workbar, Nextspace, Bond Collective, and NGIN Workplace._
 
 * _Techspace, Regus and Nextspace are examples of the things I *don't* want in my project -- busy, word-heavy, claustrophobic sites that drive me away._
@@ -103,6 +103,36 @@
 * _Join Page_
 
 ![Join Us](img/join.png)
+
+## Result
+
+#### Main Page Views
+
+* _Main - Mobile_
+
+![mobile main](img/main-mobile-sketch.png)
+
+* _Main - Tablet_
+
+![tablet main](img/main-tablet-sketch.png)
+* _Main - Computer_
+
+![computer main](img/main-computer-sketch.png)
+
+#### Other pages
+
+* _Contact Us - Mobile_
+
+![contact](img/contact-sketch.png)
+* _Amenities - Mobile_
+
+![amenities](img/amenities-sketch.png)
+* _Locations - Mobile_
+
+![locations](img/location-sketch.png)
+* _Join Us - Mobile_
+
+![join us](img/join-sketch.png)
 
 ## Technologies Used
 
