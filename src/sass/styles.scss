@@ -1,6 +1,4 @@
 // Variables
-$font-stack: Helvetica, sans-serif;
-$primary-font-color: red;
 $tab-color: rgba(61,124,255,0.75);
 
 // Mixins
@@ -211,6 +209,15 @@ body, #container {
 .tab {
   p {
     display: none;
+    @include media(300px) {
+      font-size: 0.75rem;
+    }
+    @include media(600px) {
+      font-size: 1rem;
+    }
+    @include media(900px) {
+      font-size: 1.5rem;
+    }
   }
   display: flex;
   align-items: center;

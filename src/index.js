@@ -4,7 +4,7 @@ import $ from 'jquery';
 
 $(document).ready(function() {
   $(".tab").click(function() {
-    $(this).children('h2').toggleFade();
-    $(this).children('p').toggleFade();
+    $(this).children('h2').fadeToggle();
+    $(this).children('p').fadeToggle();
   });
 });
