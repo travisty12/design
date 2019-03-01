@@ -255,6 +255,22 @@ body, #container {
     cursor: pointer;
   }
 }
+#map-div {
+  @include size(100%, 90%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.map {
+  @include size(50vw);
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 30vw;
+  background-image: url(../assets/img/map.png);
+  background-size: contain;
+  background-position: center;
+}
 .blank {
   @include size(100%, 22.22%);
 }
