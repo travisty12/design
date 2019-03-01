@@ -124,7 +124,15 @@ body, #container {
   @include cushion(5.56% 0 5.55% 0, 0);
 }
 #left {
-  @include size(49.5%, 100%);
+  @include media(300px) {
+    @include size(49.5%, 100%);
+  }
+  @include media(600px) {
+    @include size(37.8%, 100%);
+  }
+  @include media(900px) {
+    @include size(37.8%, 100%);
+  }
   @include cushion(0,0 0 0 -4.5%);
   .tab {
     justify-content: flex-end;
@@ -132,10 +140,43 @@ body, #container {
   }
 }
 #middle {
-  @include size(10%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 4.5%;
+  @include media(300px) {
+    @include size(10%, 50%);
+  }
+  @include media(600px) {
+    @include size(33.3%, 50%);
+  }
+  @include media(900px) {
+    @include size(33.3%, 50%);
+  }
+  #quote {
+    @include media(300px) {
+      display: none;
+    }
+    @include media(600px) {
+      display: inline-block;
+      @include size(80%);
+    }
+    background-color: lightgrey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-radius: 10px;
+  }
 }
 #right {
-  @include size(49.5%, 100%);
+  @include media(300px) {
+    @include size(49.5%, 100%);
+  }
+  @include media(600px) {
+    @include size(37.8%, 100%);
+  }
+  @include media(900px) {
+    @include size(37.8%, 100%);
+  }
   @include cushion(0,0 -4.5% 0 0);
   .tab {
     justify-content: flex-start;
@@ -145,7 +186,15 @@ body, #container {
 .tab {
   display: flex;
   align-items: center;
-  font-size: 6vmin;
+    @include media(300px) {
+      font-size: 6vmin;
+    }
+    @include media(600px) {
+      font-size: 4vmin;
+    }
+    @include media(900px) {
+      font-size: 4.5vmin;
+    }
   background-color: $tab-color;
   @include size(100%, 22.22%);
   border: 1px solid rgba(61,124,255,1);
