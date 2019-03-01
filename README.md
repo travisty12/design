@@ -1,4 +1,4 @@
-# Don't Copy This - Seriously, It Doesn't Take Long To Make Your Own Readme
+# Clear Space - Design Project
 
 ###### Mock website design based on example client desires
 
@@ -160,9 +160,13 @@
 
 * _The project fails to compile on my machine upon running 'npm run start', which should run the line 'npm run build; webpack-dev-server --open --mode development', claiming that 'build' is undefined. However, my machine perfectly compiles the 'npm run build' command and the 'webpack-dev-server --open --mode development' commands when run on their own, so I'm not sure where this problem traces back to. It might just be my machine, but please contact me if you have a fix or if you encounter any additional bugs._
 
+#### General Issues
+
+* _How do you import fonts into a node module / webpack bundle? Heck if I know. If you can give some advice on that, it'd be much appreciated. I spent a GOOD amount of time downloading different font loaders / managers, looking through *SO* for different workarounds and 'easy fixes', but gave up eventually. Mediocre font it is! Seriously though, please contact me if you know any good ways to import .otf files, because I sure don't._  
+
 ### Support and Contact Details
 
-* _You can reach the developer by [email](mailto:travisty12@gmail.com), or view additional work through [github](https://www.github.com/travisty12/)_ 
+* _You can reach the developer by [email](mailto:travisty12@gmail.com), or view additional work through [github](https://www.github.com/travisty12/)_
 
 #### License
 * _This software is licensed under the MIT license_
