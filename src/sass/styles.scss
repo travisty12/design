@@ -58,9 +58,12 @@ body, #container {
   @include size(100%, 12.5%);
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   h1, p {
     margin: 0;
+  }
+  &:hover {
+    cursor: pointer;
   }
 }
 .modal-pic {
@@ -91,6 +94,15 @@ body, #container {
   }
   &#contact{
     background-image: url(../assets/img/meeting.jpg);
+  }
+  &#amenities {
+    background-image: url(../assets/img/coffee-bar.png);
+  }
+  &#location {
+    background-image: url(../assets/img/plants.png);
+  }
+  &#join {
+    background-image: url(../assets/img/entrance.png);
   }
   background-size: cover;
   background-repeat: no-repeat;
@@ -133,13 +145,16 @@ body, #container {
 .tab {
   display: flex;
   align-items: center;
-  font-size: 6vw;
+  font-size: 6vmin;
   background-color: $tab-color;
   @include size(100%, 22.22%);
   border: 1px solid rgba(61,124,255,1);
   border-radius: 10%;
   box-shadow: 0px 0px 10px 1px #000;
-
+  &:hover {
+    background-color: rgba(61,124,255,1);
+    cursor: pointer;
+  }
 }
 .blank {
   @include size(100%, 22.22%);
