@@ -50,6 +50,22 @@ module.exports = {
       template: './src/index.html',
       filename: 'index.html'
     }),
+    new HtmlWebpackPlugin({
+      template: './src/contact.html',
+      filename: 'contact.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/amenities.html',
+      filename: 'amenities.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/location.html',
+      filename: 'location.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/join.html',
+      filename: 'join.html'
+    }),
     new UglifyJsPlugin(),
     new CleanWebpackPlugin(['dist'])
   ]

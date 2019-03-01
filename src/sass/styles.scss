@@ -39,6 +39,13 @@ html {
   overflow: hidden; // DOESN'T WORK???
 }
 
+a {
+  text-decoration: none;
+  &:link, &:visited {
+    color: white;
+  }
+}
+
 body, #container {
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -56,40 +63,45 @@ body, #container {
     margin: 0;
   }
 }
-#modal-pic {
+.modal-pic {
   #top-text, #bottom-text {
     margin: 0;
   }
   @include media(300px) {
     font-size: 1.2rem;
     #top-text {
-      padding-top: 10%;
+      padding-top: 10vh;
     }
     #bottom-text {
-      padding-top: 10%;
+      padding-top: 10vh;
     }
   }
   @include media(600px) {
-    font-size: 2.25rem;
+    font-size: 5.05vh;
     #top-text {
-      padding-top: 5%;
+      padding-top: 5vh;
     }
     #bottom-text {
-      padding-top: 5%;
+      padding-top: 5vh;
     }
   }
   @include size(100%, 31.25%);
-  background-image: url(../assets/img/open-space.png);
+  &#main {
+    background-image: url(../assets/img/open-space.png);
+  }
+  &#contact{
+    background-image: url(../assets/img/meeting.jpg);
+  }
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   box-shadow: 0px 0px 10px 1px #000, inset 0px 0px 10px 1px #000;
   @include media(900px) {
     #top-text {
-      padding-top: 3%;
+      padding-top: 3vh;
     }
     #bottom-text {
-      padding-top: 3%;
+      padding-top: 3vh;
     }
   }
 }
