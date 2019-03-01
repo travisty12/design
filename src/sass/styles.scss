@@ -34,6 +34,11 @@ $tab-color: rgba(61,124,255,0.75);
 
 
 // Other
+html {
+  @include size(100%);
+  overflow: hidden; // DOESN'T WORK???
+}
+
 body, #container {
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -52,16 +57,41 @@ body, #container {
   }
 }
 #modal-pic {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 6vw;
+  #top-text, #bottom-text {
+    margin: 0;
+  }
+  @include media(300px) {
+    font-size: 1.2rem;
+    #top-text {
+      padding-top: 10%;
+    }
+    #bottom-text {
+      padding-top: 10%;
+    }
+  }
+  @include media(600px) {
+    font-size: 2.25rem;
+    #top-text {
+      padding-top: 5%;
+    }
+    #bottom-text {
+      padding-top: 5%;
+    }
+  }
   @include size(100%, 31.25%);
   background-image: url(../assets/img/open-space.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   box-shadow: 0px 0px 10px 1px #000, inset 0px 0px 10px 1px #000;
+  @include media(900px) {
+    #top-text {
+      padding-top: 3%;
+    }
+    #bottom-text {
+      padding-top: 3%;
+    }
+  }
 }
 #body-div {
   @include size(100%, 56.25%);
