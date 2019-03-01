@@ -152,6 +152,8 @@
 
 ### Known Bugs
 
+_No bugs found yet, if found, please contact me._
+
 ### Support and Contact Details
 
 #### License
