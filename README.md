@@ -150,11 +150,19 @@
 
   _npm run start_
 
+* _If errors occur, instead of 'npm run start', run the following line:_
+
+  _npm run build; webpack-dev-server --open --mode development_
+
+* _To view the mock-up site plan, open clearspace.sketch in Sketch, version 50.2_
+
 ### Known Bugs
 
-_No bugs found yet, if found, please contact me._
+* _The project fails to compile on my machine upon running 'npm run start', which should run the line 'npm run build; webpack-dev-server --open --mode development', claiming that 'build' is undefined. However, my machine perfectly compiles the 'npm run build' command and the 'webpack-dev-server --open --mode development' commands when run on their own, so I'm not sure where this problem traces back to. It might just be my machine, but please contact me if you have a fix or if you encounter any additional bugs._
 
 ### Support and Contact Details
+
+* _You can reach the developer by [email](mailto:travisty12@gmail.com), or view additional work through [github](https://www.github.com/travisty12/)_ 
 
 #### License
 * _This software is licensed under the MIT license_
