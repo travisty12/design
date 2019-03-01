@@ -1,22 +1,20 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
-
   entry: './src/index.js',
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist')
   },
-
   devtool: 'eval-source-map',
   devServer: {
     contentBase: './dist'
   },
-
   module: {
     rules: [
-
       {
         test: /\.scss$/,
         use: [
@@ -25,7 +23,6 @@ module.exports = {
             "sass-loader"
         ]
       },
-
       {
         test: /\.(gif|png|jpe?g)$/,
         use: [
@@ -33,28 +30,27 @@ module.exports = {
             loader: 'file-loader',
             options: {
               name: '[name].[ext]',
-              outputPath: 'assets/images/'
+              outputPath: 'assets/img/'
             }
           }
         ]
       },
-
       {
         test:/\.html$/,
-        use: [
-          'html-loader'
-        ]
+        loader: 'html-srcsets-loader',
+        options: {
+           attrs: ['img:src', ':srcset'],
+         }
       },
-
     ]
   },
-
   plugins: [
     new HtmlWebpackPlugin({
       inject: 'body',
       template: './src/index.html',
       filename: 'index.html'
-    })
+    }),
+    new UglifyJsPlugin(),
+    new CleanWebpackPlugin(['dist'])
   ]
-
 };

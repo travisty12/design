@@ -81,28 +81,28 @@
 
 * _Mobile_
 
-![Landing Page](img/landing.png)
+![Landing Page](src/assets/img/landing.png)
 * _Tablet_
 
-![Landing Page](img/main-tablet.png)
+![Landing Page](src/assets/img/main-tablet.png)
 * _Desktop_
 
-![Landing Page](img/main-desktop.png)
+![Landing Page](src/assets/img/main-desktop.png)
 
 #### Other Pages
 
 * _Contact Page_
 
-![Contact Us](img/contact.png)
+![Contact Us](src/assets/img/contact.png)
 * _Amenities Page_
 
-![Amenities](img/amenities.png)
+![Amenities](src/assets/img/amenities.png)
 * _Location Page_
 
-![Location](img/location.png)
+![Location](src/assets/img/location.png)
 * _Join Page_
 
-![Join Us](img/join.png)
+![Join Us](src/assets/img/join.png)
 
 ## Result
 
@@ -110,35 +110,45 @@
 
 * _Main - Mobile_
 
-![mobile main](img/main-mobile-sketch.png)
+![mobile main](src/assets/img/main-mobile-sketch.png)
 
 * _Main - Tablet_
 
-![tablet main](img/main-tablet-sketch.png)
+![tablet main](src/assets/img/main-tablet-sketch.png)
 * _Main - Computer_
 
-![computer main](img/main-computer-sketch.png)
+![computer main](src/assets/img/main-computer-sketch.png)
 
 #### Other pages
 
 * _Contact Us - Mobile_
 
-![contact](img/contact-sketch.png)
+![contact](src/assets/img/contact-sketch.png)
 * _Amenities - Mobile_
 
-![amenities](img/amenities-sketch.png)
+![amenities](src/assets/img/amenities-sketch.png)
 * _Locations - Mobile_
 
-![locations](img/location-sketch.png)
+![locations](src/assets/img/location-sketch.png)
 * _Join Us - Mobile_
 
-![join us](img/join-sketch.png)
+![join us](src/assets/img/join-sketch.png)
 
 ## Technologies Used
 
 * _Sketch, v50.2_
 
 ### Setup / Installation Requirements
+
+* _Clone this directory to your machine's desktop_
+
+* _In your terminal, at the project's top level, run the command:_
+
+  _npm install_
+
+* _If no errors occur, run the command:_
+
+  _npm run start_
 
 ### Known Bugs
 
