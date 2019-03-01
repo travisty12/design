@@ -1,4 +1,4 @@
-# Clear Spot - Design Project
+# Don't Copy This - Seriously, It Doesn't Take Long To Make Your Own Readme
 
 ###### Mock website design based on example client desires
 
