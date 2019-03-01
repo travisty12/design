@@ -187,13 +187,28 @@ body, #container {
   display: flex;
   align-items: center;
     @include media(300px) {
-      font-size: 6vmin;
+      h2 {
+        font-size: 8vmin;
+      }
+      .big-text {
+        font-size: 6vmin;
+      }
     }
     @include media(600px) {
-      font-size: 4vmin;
+      h2 {
+        font-size: 6vmin;
+      }
+      .big-text {
+        font-size: 5vmin;
+      }
     }
     @include media(900px) {
-      font-size: 4.5vmin;
+      h2 {
+        font-size: 6vmin;
+      }
+      .big-text {
+        font-size: 5vmin;
+      }
     }
   background-color: $tab-color;
   @include size(100%, 22.22%);
