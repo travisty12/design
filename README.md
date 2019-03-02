@@ -138,6 +138,26 @@
 
 * _Sketch, v50.2_
 
+* _Node Package Manager_
+
+* _Sass_
+
+* _jQuery_
+
+* _And the following dependencies:_
+  * _clean-webpack-plugin v0.1.18_
+  * _css-loader v2.1.0_
+  * _file-loader v1.1.6_
+  * _html-srcsets-loader v0.5.1_
+  * _html-webpack-plugin v3.2.0_
+  * _node-sass v4.9.3_
+  * _sass-loader v7.1.0_
+  * _style-loader v0.20.2_
+  * _uglifyjs-webpack-plugin v1.2.2_
+  * _webpack v4.0.1_
+  * _webpack-cli v2.0.9_
+  * _webpack-dev-server v^3.1.0_
+
 ### Setup / Installation Requirements
 
 * _Clone this directory to your machine's desktop_
